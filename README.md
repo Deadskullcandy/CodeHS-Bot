@@ -3,7 +3,11 @@
 A bot that can make it look like it is writing the code instead of copy pasting.
 
 ✅ Step-by-Step Guide: Setting Up and Running Python Code with PyAutoGUI from VS Code
-🛠️ Part 1: For Windows
+
+
+# 🛠️ Part 1: For Windows
+
+
 💻 Step 1: Install the Required Software
 Download and Install VS Code
 
@@ -33,21 +37,11 @@ To confirm the installation:
 
 Open Command Prompt (Press Win + R, type cmd, and press Enter).
 
-Type:
+Type: python --version
 
-shell
-Copy
-Edit
-python --version
 If you see the version number, Python is installed correctly.
 
-Install Git (Optional but Recommended)
 
-Go to: Git Download
-
-Download and install Git by following the installation instructions.
-
-Git is useful for version control but not necessary for PyAutoGUI.
 
 ⚙️ Step 2: Install and Run PyAutoGUI
 Open VS Code
@@ -68,12 +62,7 @@ Go to Terminal → New Terminal.
 
 Install PyAutoGUI
 
-In the terminal, type the following command and press Enter:
-
-shell
-Copy
-Edit
-pip install pyautogui
+In the terminal, type the following command and press Enter: pip install pyautogui
 Create a Python File
 
 Go to File → New File → Save it with a .py extension (e.g., script.py).
@@ -84,9 +73,6 @@ Set the File Path
 
 If you want to read from a specific file, specify the path like this:
 
-python
-Copy
-Edit
 file_path = r"C:\Users\<YourUsername>\Desktop\example.txt"
 with open(file_path, "r") as file:
     content = file.read()
@@ -101,7 +87,8 @@ Click on the Run button (green triangle) or press F5.
 
 You should see the script running and typing out the content.
 
-🍎 Part 2: For macOS
+#🍎 Part 2: For macOS
+
 💻 Step 1: Install the Required Software
 Download and Install VS Code
 
@@ -123,23 +110,9 @@ To verify Python is installed:
 
 Open Terminal (Cmd + Space → search Terminal).
 
-Type:
-
-shell
-Copy
-Edit
-python3 --version
+Type: python3 --version
 If you see a version number, Python is installed.
 
-Install Git (Optional)
-
-Open Terminal and type:
-
-shell
-Copy
-Edit
-xcode-select --install
-This installs Git along with command-line developer tools.
 
 ⚙️ Step 2: Install and Run PyAutoGUI
 Open VS Code
@@ -160,12 +133,7 @@ Go to Terminal → New Terminal.
 
 Install PyAutoGUI
 
-In the terminal, type:
-
-shell
-Copy
-Edit
-pip3 install pyautogui
+In the terminal, type: pip3 install pyautogui
 Create a Python File
 
 Go to File → New File → Save it with a .py extension (e.g., script.py).
@@ -176,9 +144,6 @@ Set the File Path
 
 Use this format for macOS:
 
-python
-Copy
-Edit
 file_path = "/Users/<YourUsername>/Desktop/example.txt"
 with open(file_path, "r") as file:
     content = file.read()
@@ -230,4 +195,5 @@ File Path Issues:
 Always use raw strings (r"...") or double backslashes for Windows file paths.
 
 Use standard / slashes for macOS.
+
 
