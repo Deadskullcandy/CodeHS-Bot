@@ -1,5 +1,7 @@
 # CodeHS-Bot
+
 A bot that can make it look like it is writing the code instead of copy pasting.
+
 ✅ Step-by-Step Guide: Setting Up and Running Python Code with PyAutoGUI from VS Code
 🛠️ Part 1: For Windows
 💻 Step 1: Install the Required Software
